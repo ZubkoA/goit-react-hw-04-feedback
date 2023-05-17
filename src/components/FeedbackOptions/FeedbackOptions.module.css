@@ -1,0 +1,25 @@
+.Stat__feedback {
+  padding: 10px;
+  text-align: start;
+}
+
+.Stat__feedback > button {
+  border: none;
+  padding: 10px 15px;
+  background-color: rgb(129, 181, 140);
+  color: #fff;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0/0.5);
+  transition: box-shadow 250ms linear;
+  border-radius: 8px;
+}
+
+.Stat__feedback > button:active {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0/0.5);
+}

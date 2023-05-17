@@ -1,0 +1,20 @@
+.Flex {
+  width: 400px;
+  padding: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 8px;
+}
+.Statistic__text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.Statistic__count {
+  padding: 0 8px;
+  background-color: rgb(129, 181, 140);
+  color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+}
