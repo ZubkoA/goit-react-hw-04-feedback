@@ -3,7 +3,7 @@ import Section from '../Section';
 import FeedbackOptions from '../FeedbackOptions';
 import { Notification, Statistics } from '../Statistics';
 import css from './App.module.css';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
