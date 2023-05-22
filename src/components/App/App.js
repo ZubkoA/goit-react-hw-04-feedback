@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Section from '../Section';
 import FeedbackOptions from '../FeedbackOptions';
 import { Notification, Statistics } from '../Statistics';
