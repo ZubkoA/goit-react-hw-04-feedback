@@ -27,7 +27,6 @@ const App = () => {
         return;
     }
   };
-
   const countTotalFeedback = () => {
     return good + bad + neutral;
   };
@@ -40,7 +39,10 @@ const App = () => {
   return (
     <div className={css.Container}>
       <Section title="Please leave feedback">
-        <FeedbackOptions onLeaveFeedback={handlClick} />
+        <FeedbackOptions
+          onLeaveFeedback={handlClick}
+          options={Object.keys({ good, neutral, bad })}
+        />
       </Section>
       <Section title="Statistics">
         {total > 0 ? (
