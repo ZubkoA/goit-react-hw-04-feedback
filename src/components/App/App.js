@@ -35,14 +35,12 @@ const App = () => {
   };
   const total = countTotalFeedback();
   const positiveFeedback = countPositiveFeedbackPercentage();
+  const options = Object.keys({ good, neutral, bad });
 
   return (
     <div className={css.Container}>
       <Section title="Please leave feedback">
-        <FeedbackOptions
-          onLeaveFeedback={handlClick}
-          options={Object.keys({ good, neutral, bad })}
-        />
+        <FeedbackOptions onLeaveFeedback={handlClick} options={options} />
       </Section>
       <Section title="Statistics">
         {total > 0 ? (
